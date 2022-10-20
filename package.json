@@ -23,15 +23,8 @@
   "scripts": {
   "dev": "nodemon ./src --exec babel-node",
   "build": "babel src -d dist && ncp src/views dist/views && ncp src/public dist/public",
-  "start": "node ./dist",
+  "start": "node ./dist"
     
-     
-    "dev": "react-scripts start",
-    "start": "serve -s build",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject",
-    "heroku-postbuild": "npm run build"
   },
   
   "keywords": [],
