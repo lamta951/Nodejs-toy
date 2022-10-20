@@ -27,13 +27,6 @@
     "start": "node ./dist"
   },
 
-    "scripts": {
-      "start": "react-scripts start",
-      "build": "react-scripts build",
-      "test": "react-scripts test",
-      "eject": "react-scripts eject"
-      },
-
   "keywords": [],
   "author": "",
   "license": "ISC"
