@@ -21,7 +21,9 @@
     "nodemon": "^2.0.15"
   },
   "scripts": {
-  
+  "dev": "nodemon ./src --exec babel-node",
+  "build": "babel src -d dist && ncp src/views dist/views && ncp src/public dist/public",
+  "start": "node ./dist",
     
      
     "dev": "react-scripts start",
